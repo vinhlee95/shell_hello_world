@@ -36,7 +36,7 @@ esac
 
 # Pushing to master
 echo "🛠🛠🛠 Deploying..."
-git push origin origin/"$master_branch"
+git push origin "$master_branch"
 
 # Instruct check in Git repository
 echo
